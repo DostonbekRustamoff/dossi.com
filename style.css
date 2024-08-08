@@ -1,0 +1,253 @@
+body{
+    width: 1409px;
+    background-color: #fff;
+}
+body a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+}
+.nav img{
+    margin-left: 90px;
+    width: 48px;
+    height: 43px;               
+    margin-top: 45px;
+}
+.nav ul{
+    display: flex;
+    margin-left: 340px;
+    gap: 40px;
+    margin-top: 30px;
+}
+.nav ul h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+.nav ul h1{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.nav ul h2:hover{
+    text-decoration: underline;
+}
+.button button{
+    margin-left: 340px;
+    margin-top: 25px;
+    width: 110px;
+    height: 42px;
+    border-radius: 5px;
+    background: #fff;
+    color: black;
+    border-color: black;
+    margin-top: 45px;
+}
+.button button a{
+    color: #323232;
+}
+.main{
+    display: flex;
+}
+.main .sec-1 h2{
+    color: gray;
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.main .sec-1 h1{
+    font-size: 70px;
+    width: 500px;
+    margin: 10px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 90px;
+    font-weight: 600;
+}
+.main .sec-1 h3{
+    font-size: 38px;
+    font-weight: 600;
+    margin-left: 90px;
+    color: rgb(62, 62, 62);
+    width: 625px;
+    margin-top: 10px;
+}
+.main .sec-1 p{
+    width: 600px;
+    font-size: 20px;
+    color: gray;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.main .sec-1 span{
+    color: #8643DC;
+    font-size: 48px;
+    margin-top: 10px;
+}
+.main .sec-1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin-top: 30px;
+    color: #fff;
+    /* border-color: black; */
+    font-size: 17px;
+    background-color: #8643DC;
+    display: inline-block;
+    letter-spacing: .1rem;
+    box-shadow: 0 0 1rem #8643DC;
+}
+.main .sec-2 img{
+    width: 490px;
+    height: 590px;
+    margin-left: 150px;
+    margin-top: 90px;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.coro{
+    display: flex;
+}
+.coro .card{
+    width: 240px;
+    margin-left: 190px;
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 2rem;
+    border: .1rem solid gray;
+    transition: .3s ease;
+    height: 280px;
+}
+.coro .card:hover{
+    border-color: #8643DC;
+    transform: scale(1.02);
+}
+.coro .card h1{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.coro .card p{
+    width: 200px;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.coro .card button{
+    width: 100px;
+    margin-left: 65px;
+background-color: #8643DC;
+box-shadow: 0 0 1rem #8643DC;
+    height: 30px;
+    color: #fff;
+    border-radius: 50px;
+    height: 40px;
+}
+.coro .card img{
+    margin-left: 87px;
+    width: 50px;
+    margin-top: 20px;
+}
+.c{
+    text-align: center;
+    margin-top: 50px;
+}
+.c h1{
+    margin-top: 140px;
+    font-size: 50px;
+}
+.c h2{
+    color: gray;
+    font-weight: 500;
+}
+.lok{
+margin-top: 230px;
+}
+.lok h1{
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-left: 150px;
+    color: gray;
+}
+.lok h2{
+    width: 300px;
+    font-size: 40px;
+    margin-left: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 40px;
+}
+.loko img{
+    margin-left: 100px;
+    gap: 10px;
+    width: 590px;
+    height: 490px;
+}
+.lot h1{
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-left: 150px;
+    color: gray;
+    margin-top: 200px;
+}
+.lot h2{
+    width: 570px;
+    font-size: 40px;
+    margin-left: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.loto{
+    width: 800px;
+   margin-left: 150px;
+}
+.loto .form-control{
+    height: 50px;
+    border-color: rgb(46, 46, 46);
+    margin-top: 10px;
+}
+.koko {
+width: 800px;
+margin-left: 150px;
+}
+.koko .form-control{
+    height: 130px;
+    border-color: gray;
+}
+.koko .Submit{
+    width: 120px;
+    height: 46px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 45px;
+    background-color: #8643DC;
+}
+.footer h1{
+    /* text-align: center; */
+    margin-left: 600px;
+    margin-top: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer img{
+    margin-left: 620px;
+    margin-top: 30px;
+}
